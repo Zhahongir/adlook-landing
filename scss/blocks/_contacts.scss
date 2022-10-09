@@ -1,0 +1,125 @@
+.contacts {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    @include dark-bg;
+    &__title {
+        width: 792px;
+        margin: 0 auto;
+        text-align: left;
+        font-size: 32px;
+        font-family: 'Pelinka';
+        color: #D9D9D9;
+        line-height: 40px;
+    }
+    &__wrap {
+        @include orange-bg;
+        border-radius: 16px;
+        width: 792px;
+        margin: 0 auto;
+        margin-top: 24px;
+        padding: 42px 64px;
+        &__form {
+            width: 664px;
+            display: grid;
+            grid-template: 1fr / 317.5px 317.5px;
+            justify-content: space-between;
+            justify-items: stretch;
+            row-gap: 24px;
+            &__inner {
+                display: flex;
+                flex-direction: column;
+                &__label {
+                    font-size: 18px;
+                    color: #fff;
+                    font-weight: 500;
+                }
+                &__item {
+                    padding: 16px;
+                    border-radius: 8px;
+                    background-color: #fff;
+                    border: none;
+                    font-size: 18px;
+                    color: #5D5DC5;
+                    font-weight: 500;
+                    line-height: 24px;
+                    resize: none;
+                    margin-top: 4px;
+                    &::placeholder {
+                        font-size: 18px;
+                        font-weight: 500;
+                        color: #c0c0c0;
+                    }
+                    &:focus {
+                        outline: 2px solid #324B72;
+                        border-radius: 8px;
+                    }
+                }
+                .just-validate-error-field {
+                    outline: 3px solid red !important;
+                    z-index: 10;
+                }
+                .just-validate-success-field {
+                    outline: 3px solid #34dc53 !important;
+                }
+                .just-validate-error-label {
+                    margin-top: 10px !important;
+                    color: #fff !important;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+            }
+            &__inner:nth-child(1) {
+                grid-column-start: 1;
+                grid-column-end: 2;
+                width: 317px;
+                &__item {
+                    width: 317px;
+                }
+            }
+            &__inner:nth-child(2) {
+                grid-column-start: 2;
+                grid-column-end: 3;
+                width: 317px;
+                &__item {
+                    width: 317px;
+                }
+            }
+            &__inner:nth-child(3) {
+                grid-column-start: 1;
+                grid-column-end: 3;
+                width: 664px;
+                &__item {
+                    width: 664px;
+                }
+            }
+            &__inner:nth-child(4) {
+                grid-column-start: 1;
+                grid-column-end: 3;
+                width: 664px;
+                &__item {
+                    width: 664px;
+                }
+            }
+            &__btn {
+                font-size: 18px;
+                @include orange;
+                font-weight: 600;
+                text-align: center;
+                width: 168px;
+                border-radius: 8px;
+                background-color: #fff;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                cursor: pointer;
+                border: none;
+                transition: 0.7s ease;
+                grid-column-end: 3;
+                justify-self: end;
+                &:hover {
+                    @include dark-bg;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

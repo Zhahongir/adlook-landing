@@ -1,0 +1,45 @@
+.team {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 48px;
+    &__title {
+        font-size: 53px;
+        @include orange;
+        text-align: center;
+        font-weight: 600;
+        line-height: 130%;
+    }
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 96px;
+        &__item {
+            width: 282px;
+            padding: 16px 16px 90px 16px;
+            box-shadow: 0px 2px 4px rgba(9, 8, 66, 0.08), 0px 4px 24px rgba(9, 8, 66, 0.04);
+            border-radius: 16px;
+            background-color: #fff;
+            text-align: center;
+            &__photo {
+                width: 250px;
+                height: 198px;
+                border-radius: 16px;
+            }
+            &__title {
+                font-size: 24px;
+                @include dark;
+                font-weight: 700;
+                margin-top: 24px;
+                line-height: 32px;
+            }
+            &__description {
+                font-size: 18px;
+                font-weight: 500;
+                @include dark;
+                line-height: 24px;
+                letter-spacing: -0.02em;
+                margin-top: 8px;
+            }
+        }
+    }
+}

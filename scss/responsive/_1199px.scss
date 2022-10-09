@@ -1,0 +1,78 @@
+@media screen and (max-width: 1199px) {
+    .container {
+        width: 960px;
+    }
+
+    .promo__wrap__content__title {
+        font-size: 50px;
+    }
+
+    .promo__wrap__content {
+        width: 460px;
+    }
+
+    .promo__wrap__photo {
+        margin-right: 0;
+    }
+
+    .advantages__wrap__item {
+        width: 230px;
+        padding: 0;
+    }
+
+    .services__wrap {
+        justify-content: center;
+        gap: 60px;
+        margin-top: 70px;
+    }
+
+    .services__wrap__item:nth-child(1) {
+        margin-bottom: 0;
+    }
+
+    .services__wrap__item:nth-child(2) {
+        margin-bottom: 0;
+    }
+
+    .services__wrap__item:nth-child(3) {
+        margin-bottom: 0;
+    }
+
+    .about__wrap__photo {
+        width: 430px;
+        height: 287px;
+    }
+
+    .about__wrap__content {
+        width: 500px;
+    }
+
+    .about__wrap__content__description {
+        font-size: 20px;
+    }
+
+    .team__wrap {
+        padding-top: 50px;
+    }
+
+    .team__wrap__item {
+        width: 235px;
+        padding: 10px 10px 30px 10px;
+    }
+
+    .team__wrap__item__photo {
+        width: 100%;
+        height: 170px;
+    }
+
+    .trial__title {
+        font-size: 50px;
+        width: 557px;
+    }
+
+    .useful__wrap {
+        padding-top: 70px;
+        justify-content: center;
+        gap: 60px;
+    }
+}

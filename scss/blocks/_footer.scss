@@ -1,0 +1,67 @@
+.footer {
+    position: relative;
+    @include dark-bg;
+    padding-top: 64px;
+    padding-bottom: 50px;
+    &__wrap {
+        display: flex;
+        &__main {
+            margin-right: 63px;
+            &__logo {
+                width: 135px;
+                height: 19.5px;
+                transition: 0.3s ease;
+                &:hover {
+                    opacity: 0.8;
+                }
+                &__icon {
+                    width: 135px;
+                    height: 19.5px;
+                }
+            }
+            &__media {
+                display: flex;
+                align-items: center;
+                margin-top: 24px;
+                &__link:not(:last-child) {
+                    margin-right: 15px;
+                }
+                &__link {
+                    transition: 0.3s ease;
+                    &:hover {
+                        opacity: 0.8;
+                    }
+                    &__icon {
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+            }
+        }
+        &__info {
+            display: flex;
+            flex-direction: column;
+            &__phone {
+                font-size: 18px;
+                font-weight: 600;
+                color: #fff;
+                transition: 0.3s ease;
+                margin-bottom: 8px;
+                &:hover {
+                    @include orange;
+                }
+            }
+            &__item {
+                margin-bottom: 8px;
+                display: inline-flex;
+                font-size: 18px;
+                font-weight: 500;
+                color: #FAFAFF;
+                transition: 0.5s ease;
+                &:hover {
+                    @include orange;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,76 @@
+.useful {
+    position: relative;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    &__title {
+        font-size: 53px;
+        font-weight: 600;
+        @include dark;
+        text-align: center;
+        line-height: 130%;
+    }
+    &__wrap {
+        padding-top: 96px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        &__item {
+            width: 384px;
+            box-shadow: 0px 2px 4px rgba(9, 8, 66, 0.08), 0px 4px 24px rgba(9, 8, 66, 0.04);
+            border-radius: 16px;
+            background-color: #fff;
+            padding: 16px;
+            &__header {
+                position: relative;
+                &__photo {
+                    width: 352px;
+                    height: 198px;
+                    border-radius: 16px;
+                }
+                &__date {
+                    position: absolute;
+                    top: 8px;
+                    left: 8px;
+                    font-size: 14px;
+                    font-family: 'Inter';
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    @include dark;
+                    line-height: 130%;
+                    width: 109px;
+                    border-radius: 8px;
+                    background-color: #FCAF3B;
+                    text-align: center;
+                    padding-top: 7px;
+                    padding-bottom: 7px;
+                }
+            }
+            &__description {
+                font-size: 18px;
+                font-weight: 500;
+                @include dark;
+                line-height: 24px;
+                margin-top: 24px;
+                margin-bottom: 50px;
+            }
+            &__btn {
+                width: 100%;
+                text-align: center;
+                border-radius: 8px;
+                @include dark-bg;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                display: block;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 600;
+                cursor: pointer;
+                transition: 0.3s ease;
+                &:hover {
+                    box-shadow: 0px 0px 20px rgba(45, 41, 38, 0.25);
+                }
+            }
+        }
+    }
+}

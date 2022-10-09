@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAFAFF;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+div, a, button, span, p {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+// Blocks
+@import '../scss/fonts';
+@import '../scss/mixins';
+
+@import '../scss/blocks/header';
+@import '../scss/blocks/promo';
+@import '../scss/blocks/advantages';
+@import '../scss/blocks/services';
+@import '../scss/blocks/about';
+@import '../scss/blocks/team';
+@import '../scss/blocks/trial';
+@import '../scss/blocks/useful';
+@import '../scss/blocks/contacts';
+@import '../scss/blocks/footer';
+@import '../scss/blocks/modals';
+
+
+// Responsive
+@import '../scss/responsive/1199px';
+@import '../scss/responsive/991px';
+@import '../scss/responsive/767px';
+@import '../scss/responsive/575px';
