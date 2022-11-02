@@ -1,6 +1,6 @@
 @media screen and (max-width: 575px) {
     .container {
-        width: 340px;
+        width: 320px;
     }
 
     .header__wrap__callback__phone {
@@ -154,7 +154,7 @@
     }
 
     .team__wrap__item {
-        width: 340px;
+        width: 320px;
     }
 
     .team__wrap__item:not(:last-child) {
@@ -208,15 +208,15 @@
     }
 
     .contacts__wrap__form__inner:nth-child(1) {
-        width: 139px;
+        width: 125px;
     }
 
     .contacts__wrap__form__inner:nth-child(2) {
-        width: 139px;
+        width: 125px;
     }
 
     .contacts__wrap__form {
-        grid-template: 1fr / 139px 139px;
+        grid-template: 1fr / 125px 125px;
     }
 
     .contacts__wrap__form__inner textarea {
