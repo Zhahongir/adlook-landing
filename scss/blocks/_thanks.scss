@@ -1,0 +1,55 @@
+.thanks {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    &__wrap {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 560px;
+        border: 1px solid rgb(213, 213, 213);
+        background-color: #fff;
+        border-radius: 16px;
+        padding: 20px 20px 40px 20px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+        &__icon {
+            width: 100px;
+        }
+        &__title {
+            font-weight: 500;
+            font-size: 32px;
+            margin-top: 20px;
+            color: #2d2926;
+        }
+        &__text {
+            margin-top: 5px;
+            font-size: 18px;
+            color: #2d2926;
+            margin-bottom: 40px;
+        }
+        &__btn {
+            font-size: 18px;
+            font-weight: 500;
+            color: #fff;
+            width: 224px;
+            padding: 16px 52px;
+            border-radius: 8px;
+            background-color: #DD5235;
+            margin: 0 auto;
+            -webkit-transition: 0.3s ease;
+            transition: 0.3s ease;
+            cursor: pointer;
+            text-align: center;
+            &:hover {
+                background-color: #DD5235;
+            }
+        }
+    }
+}
+
+#thanksBody {
+    background-color: #Ffff;
+}

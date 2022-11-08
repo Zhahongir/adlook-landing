@@ -1,6 +1,6 @@
 @media screen and (max-width: 575px) {
     .container {
-        width: 320px;
+        width: 320px !important;
     }
 
     .header__wrap__callback__phone {
@@ -302,5 +302,21 @@
 
     .overlay .modal__form__btn {
         width: 100%;
+    }
+
+    .thanks__wrap {
+        width: 95%;
+    }
+
+    .thanks__wrap__icon {
+        width: 65px;
+    }
+
+    .thanks__wrap__title {
+        font-size: 24px;
+    }
+
+    .thanks__wrap__text {
+        font-size: 16px;
     }
 }
