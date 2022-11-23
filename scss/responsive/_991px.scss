@@ -251,4 +251,37 @@
         display: none;
     }
 
+    .intro__wrap__header {
+        width: 100%;
+    }
+
+    .article__wrap {
+        width: 100%;
+    }
+
+    .intro__wrap__header__title {
+        font-size: 47px;
+    }
+
+    .intro__wrap__cover {
+        height: auto;
+    }
+
+    .article__wrap__title {
+        font-size: 36px;
+    }
+
+    .article__wrap__list__item {
+        font-size: 20px;
+    }
+
+    .useful__wrap__item {
+        position: relative;
+    }
+
+    .useful__wrap__item__btn {
+        position: absolute;
+        width: 318px;
+        bottom: 16px;
+    }
 }

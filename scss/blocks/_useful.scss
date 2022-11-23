@@ -9,6 +9,9 @@
         text-align: center;
         line-height: 130%;
     }
+    &__title-article {
+        @include orange;    
+    }
     &__wrap {
         padding-top: 96px;
         display: flex;
@@ -73,4 +76,8 @@
             }
         }
     }
+}
+
+.useful-article {
+    padding-top: 100px;
 }

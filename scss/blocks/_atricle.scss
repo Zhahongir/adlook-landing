@@ -1,0 +1,25 @@
+.article {
+    position: relative;
+    padding-top: 100px;
+    &__wrap {
+        width: 940px;
+        margin: 0 auto;
+        &__title {
+            font-size: 40px;
+            font-weight: 700;
+            font-family: 'Pelinka';
+            @include orange;
+        }
+        &__list {
+            margin-top: 32px;
+            position: relative;
+            &__item {
+                font-size: 22px;
+                @include dark;
+                font-weight: 400;
+                line-height: 32px;
+         
+            }
+        }
+    }
+}

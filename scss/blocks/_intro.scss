@@ -1,0 +1,78 @@
+.intro {
+    padding-top: 135px;
+    position: relative;
+    &__wrap {
+        position: relative;
+        &__header {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            width: 792px;
+            &__subtitle {
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 130%;
+                color: #7B61FF;
+                text-transform: uppercase;
+            }
+            &__title {
+                font-size: 53px;
+                font-weight: 600;
+                line-height: 68.9px;
+                @include orange;
+                margin-top: 32px;
+            }
+            &__description {
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 130%;
+                @include dark;
+                margin-top: 32px;
+            }
+            &__author {
+                display: flex;
+                align-items: center;
+                margin-top: 32px;
+                &__image {
+                    width: 39px;
+                    height: 39px;
+                    border-radius: 100%;
+                    object-fit: cover;
+                    overflow: hidden;
+                    margin-right: 15px;
+                    &__photo {
+                        object-fit: cover;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                &__name {
+                    font-size: 18px;
+                    font-weight: 600;
+                    color:#808080;
+                    line-height: 130%;
+                    span {
+                        font-size: 18px;
+                        font-weight: 600;
+                        color:#808080;
+                        line-height: 130%;
+                        margin-left: 15px;
+                    }
+                }
+                &__date {
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 130%;
+                    color:#808080;
+                }
+            }
+        }
+        &__cover {
+            margin-top: 100px;
+            width: 100%;
+            height: 620px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    }
+}
