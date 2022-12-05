@@ -181,7 +181,7 @@
     }
 
     .useful__wrap__item {
-        height: 482px;
+        // height: 482px;
         width: 350px;
         &:nth-child(1) {
             margin-bottom: 40px;
@@ -271,17 +271,13 @@
         font-size: 36px;
     }
 
-    .article__wrap__list__item {
-        font-size: 20px;
-    }
-
     .useful__wrap__item {
         position: relative;
     }
 
-    .useful__wrap__item__btn {
-        position: absolute;
-        width: 318px;
-        bottom: 16px;
-    }
+    // .useful__wrap__item__btn {
+    //     position: absolute;
+    //     width: 318px;
+    //     bottom: 16px;
+    // }
 }

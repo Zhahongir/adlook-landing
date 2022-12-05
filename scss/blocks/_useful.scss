@@ -15,7 +15,7 @@
     &__wrap {
         padding-top: 96px;
         display: flex;
-        align-items: center;
+        align-items: stretch;
         justify-content: space-between;
         flex-wrap: wrap;
         &__item {
@@ -24,12 +24,18 @@
             border-radius: 16px;
             background-color: #fff;
             padding: 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
             &__header {
                 position: relative;
                 &__photo {
                     width: 352px;
                     height: 198px;
                     border-radius: 16px;
+                }
+                .contain-photo-news {
+                    object-fit: contain !important;
                 }
                 &__date {
                     position: absolute;
@@ -55,7 +61,7 @@
                 @include dark;
                 line-height: 24px;
                 margin-top: 24px;
-                margin-bottom: 50px;
+                margin-bottom: 30px;
             }
             &__btn {
                 width: 100%;

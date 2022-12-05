@@ -338,6 +338,41 @@
 
     .article__wrap__list__item {
         font-weight: 500;
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .article__wrap__list .article-title {
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 27px;
+    }
+
+    // .article__wrap__list__item span {
+    //     font-size: 17px;
+    //     font-weight: 600;
+    //     line-height: 27px;
+    // }
+
+    .article__wrap__list .article-title-inside {
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+    .article__wrap__list__item__inside__item {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .article__wrap__list .article-title-italic {
+        font-size: 17px;
+        line-height: 27px;
+        margin-bottom: 10px;
+    }
+
+    .article__wrap__list__item__inside {
+        margin-left: 30px;
     }
 
     .intro__wrap__header__author__name {
