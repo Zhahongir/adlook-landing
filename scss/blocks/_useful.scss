@@ -16,7 +16,8 @@
         padding-top: 96px;
         display: flex;
         align-items: stretch;
-        justify-content: space-between;
+        justify-content: flex-start;
+        column-gap: 24px;
         flex-wrap: wrap;
         &__item {
             width: 384px;
@@ -27,6 +28,7 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            margin-bottom: 35px;
             &__header {
                 position: relative;
                 &__photo {
@@ -38,6 +40,7 @@
                     object-fit: contain !important;
                 }
                 &__date {
+                    display: none;
                     position: absolute;
                     top: 8px;
                     left: 8px;

@@ -73,10 +73,14 @@
     .useful__wrap {
         padding-top: 70px;
         justify-content: center;
-        gap: 60px;
+        gap: 40px;
     }
 
     .useful__wrap__item__description {
         margin-bottom: 30px;
+    }
+
+    .useful__wrap__item {
+        margin-bottom: 0;
     }
 }
